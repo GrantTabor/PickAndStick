@@ -1,0 +1,4 @@
+/Users/granttabor/source/PickAndStick/PickAndStick.Domain/obj/Debug/netcoreapp3.1/PickAndStick.Domain.csprojAssemblyReference.cache
+/Users/granttabor/source/PickAndStick/PickAndStick.Domain/obj/Debug/netcoreapp3.1/PickAndStick.Domain.AssemblyInfoInputs.cache
+/Users/granttabor/source/PickAndStick/PickAndStick.Domain/obj/Debug/netcoreapp3.1/PickAndStick.Domain.AssemblyInfo.cs
+/Users/granttabor/source/PickAndStick/PickAndStick.Domain/obj/Debug/netcoreapp3.1/PickAndStick.Domain.csproj.CoreCompileInputs.cache

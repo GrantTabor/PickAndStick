@@ -1,0 +1,4 @@
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.csprojAssemblyReference.cache
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.AssemblyInfoInputs.cache
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.AssemblyInfo.cs
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.csproj.CoreCompileInputs.cache

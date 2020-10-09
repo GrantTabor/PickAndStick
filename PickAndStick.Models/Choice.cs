@@ -1,5 +1,6 @@
 using System;
-
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 namespace PickAndStick.Models
 {
     public class Choice

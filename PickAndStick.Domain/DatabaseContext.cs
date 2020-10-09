@@ -1,8 +1,7 @@
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
+using Microsoft.EntityFrameworkCore;
 using PickAndStick.Models;
 
-namespace DbContext
+namespace DatabaseContext
 {
     public class PickerContext : DbContext
     {
