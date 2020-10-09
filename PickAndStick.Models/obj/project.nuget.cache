@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lIMBJUvnGMmfRC2ZnZWwGKC1m9+IADS/K1ZdaCQD176dmMUPGgBoUUVHOodBK+V4XMvreeKxqHIx3FlRXb5e/Q==",
+  "success": true,
+  "projectFilePath": "/Users/granttabor/source/PickAndStick/PickAndStick.Models/PickAndStick.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/granttabor/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/granttabor/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
