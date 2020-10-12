@@ -2,3 +2,8 @@
 /Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.AssemblyInfoInputs.cache
 /Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.AssemblyInfo.cs
 /Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.csproj.CoreCompileInputs.cache
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/bin/Debug/netstandard2.0/PickAndStick.Models.deps.json
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/bin/Debug/netstandard2.0/PickAndStick.Models.dll
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/bin/Debug/netstandard2.0/PickAndStick.Models.pdb
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.dll
+/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/Debug/netstandard2.0/PickAndStick.Models.pdb
