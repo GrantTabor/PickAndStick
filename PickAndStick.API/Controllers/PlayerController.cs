@@ -7,6 +7,7 @@ using System.Linq;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.X509Certificates;
+using PickAndStick.Domain.PlayerInputs;
 using PickAndStick.Domain;
 
 namespace PickAndStick.API.Controllers
@@ -17,10 +18,10 @@ namespace PickAndStick.API.Controllers
     public class PlayerController : ControllerBase
     {
         [HttpPost]
-        public ActionResult<Player> makePlayer()
+        public ActionResult<Player> makePlayer([FromBody]AddUserInput newUser)
         {
             PlayerManager PM = new PlayerManager();
-            Player player = PM.makePlayer("guy", "guymail", "guypassword");
+            Player player = PM.makePlayer(newUser.Username, newUser.Email, newUser.Password);
             return player;
         }
         [HttpGet]
