@@ -1,0 +1,6 @@
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\bin\Debug\StoreDB.dacpac
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\bin\Debug\StoreDB.dll
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\bin\Debug\StoreDB.pdb
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\obj\Debug\StoreDB.sqlprojAssemblyReference.cache
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\obj\Debug\StoreDB.dll
+C:\Users\bobta\source\repos\PickAndStick\StoreDB\obj\Debug\StoreDB.pdb

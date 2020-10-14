@@ -1,29 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/granttabor/source/PickAndStick/PickAndStick.Models/PickAndStick.Models.csproj": {}
+    "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {}
   },
   "projects": {
-    "/Users/granttabor/source/PickAndStick/PickAndStick.Models/PickAndStick.Models.csproj": {
+    "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/granttabor/source/PickAndStick/PickAndStick.Models/PickAndStick.Models.csproj",
+        "projectUniqueName": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
         "projectName": "PickAndStick.Models",
-        "projectPath": "/Users/granttabor/source/PickAndStick/PickAndStick.Models/PickAndStick.Models.csproj",
-        "packagesPath": "/Users/granttabor/.nuget/packages/",
-        "outputPath": "/Users/granttabor/source/PickAndStick/PickAndStick.Models/obj/",
+        "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
+        "packagesPath": "C:\\Users\\bobta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/granttabor/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\bobta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -34,13 +36,27 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -53,7 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

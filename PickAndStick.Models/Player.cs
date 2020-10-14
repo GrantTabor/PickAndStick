@@ -9,6 +9,7 @@ namespace PickAndStick.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<League> Leagues { get; set; }
+        public List<LeaguePlayer> LeaguePlayers { get; set; }
+        public List<PlayerSeason> PlayerSeasons { get; set; }
     }
 }

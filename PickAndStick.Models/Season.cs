@@ -7,7 +7,7 @@ namespace PickAndStick.Models
     {
         public int Id { get; set; }
         public int LeagueId { get; set; }
-        public List<int> PlayerId { get; set; }
+        public List<PlayerSeason> PlayerSeasons { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate {get; set; }
     }

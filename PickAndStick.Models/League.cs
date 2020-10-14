@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PickAndStick.Models
 {
@@ -7,7 +8,7 @@ namespace PickAndStick.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Player> Players { get; set; }
+        public List<LeaguePlayer> LeaguePlayers { get; set; }
         
     }
 }
