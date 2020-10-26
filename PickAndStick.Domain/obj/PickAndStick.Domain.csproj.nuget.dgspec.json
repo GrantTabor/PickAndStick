@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {}
+    "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {
+    "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj",
         "projectName": "PickAndStick.Domain",
-        "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj",
-        "packagesPath": "C:\\Users\\bobta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\obj\\",
+        "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj",
+        "packagesPath": "C:\\Users\\grant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bobta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
-                "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj"
+              "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
+                "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj"
               }
             }
           }
@@ -86,17 +86,17 @@
         }
       }
     },
-    "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
+    "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
+        "projectUniqueName": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
         "projectName": "PickAndStick.Models",
-        "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
-        "packagesPath": "C:\\Users\\bobta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\obj\\",
+        "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj",
+        "packagesPath": "C:\\Users\\grant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bobta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

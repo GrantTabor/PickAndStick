@@ -6592,19 +6592,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bobta\\.nuget\\packages\\": {}
+    "C:\\Users\\grant\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Console\\PickAndStick.Console.csproj",
+      "projectUniqueName": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Console\\PickAndStick.Console.csproj",
       "projectName": "PickAndStick.Console",
-      "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Console\\PickAndStick.Console.csproj",
-      "packagesPath": "C:\\Users\\bobta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Console\\obj\\",
+      "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Console\\PickAndStick.Console.csproj",
+      "packagesPath": "C:\\Users\\grant\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bobta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6617,11 +6617,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {
-              "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj"
+            "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj": {
+              "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Domain\\PickAndStick.Domain.csproj"
             },
-            "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
-              "projectPath": "C:\\Users\\bobta\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj"
+            "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj": {
+              "projectPath": "C:\\Users\\grant\\source\\repos\\PickAndStick\\PickAndStick.Models\\PickAndStick.Models.csproj"
             }
           }
         }
