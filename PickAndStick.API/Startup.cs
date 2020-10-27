@@ -25,6 +25,16 @@ namespace PickAndStick.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "_myAllowSpecificOrigins",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000")
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod(); ;
+                                  });
+            });
             services.AddControllers();
         }
 
@@ -37,7 +47,7 @@ namespace PickAndStick.API
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("_myAllowSpecificOrigins");
             app.UseRouting();
 
             app.UseAuthorization();

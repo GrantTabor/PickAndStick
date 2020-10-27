@@ -7,7 +7,14 @@ namespace PickAndStick.Domain.Managers
 {
     public class PickManager
     {
-        public WeekPick MakeWeekPick(Player player, List<Pick> picks, Season season)
+        public WeekPick MakeWeekPick(int playerId, int seasonId)
+        {
+            WeekPick weekPick = new WeekPick{ PlayerId = playerId, SeasonId = seasonId};
+            return weekPick;
+        }
+
+
+        public WeekPick PopulateWeekPick(WeekPick weekPick, List<Pick> picks )
         {
             foreach(Pick pick in picks)
             {
@@ -22,9 +29,8 @@ namespace PickAndStick.Domain.Managers
                     throw new System.ArgumentException("Must have one choice selected", "original");
                 }
             }
+            weekPick.PicksByConfidence = picks;
 
-
-            WeekPick weekPick = new WeekPick { PlayerId = player.Id, PicksByConfidence = picks, SeasonId = season.Id};
             return weekPick;
         }
         public List<Pick> MakePicks()

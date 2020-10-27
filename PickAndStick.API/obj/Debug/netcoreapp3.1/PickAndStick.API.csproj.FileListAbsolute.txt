@@ -129,8 +129,6 @@ C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\bin\Debug\netcoreapp3.
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.csprojAssemblyReference.cache
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.AssemblyInfoInputs.cache
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.AssemblyInfo.cs
-C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.csproj.CoreCompileInputs.cache
-C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.RazorTargetAssemblyInfo.cache
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.csproj.CopyComplete
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\staticwebassets\PickAndStick.API.StaticWebAssets.Manifest.cache
@@ -138,3 +136,8 @@ C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.dll
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.pdb
 C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.genruntimeconfig.cache
+C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.csproj.CoreCompileInputs.cache
+C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\obj\Debug\netcoreapp3.1\PickAndStick.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\grant\source\repos\PickAndStick\PickAndStick.API\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll

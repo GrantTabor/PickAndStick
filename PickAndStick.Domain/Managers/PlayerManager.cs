@@ -62,5 +62,14 @@ namespace PickAndStick.Domain.Managers
                 db.SaveChanges();
             }
         }
+        public Player selectPlayerByUsername(string username)
+        {
+            using (var db = new PickAndStick.Models.PickerContext())
+            {
+                var player = db.Players.FirstOrDefault(x => x.Name == username);
+
+                return player;
+            }
+        }
     }
 }

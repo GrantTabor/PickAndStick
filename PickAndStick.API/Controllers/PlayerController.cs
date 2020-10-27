@@ -9,12 +9,15 @@ using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.X509Certificates;
 using PickAndStick.Domain.PlayerInputs;
 using PickAndStick.Domain;
+using System.Web.Http.Cors;
+
 
 namespace PickAndStick.API.Controllers
 {
 
     [ApiController]
     [Route("Player")]
+    [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class PlayerController : ControllerBase
     {
         [HttpPost]
@@ -70,6 +73,28 @@ namespace PickAndStick.API.Controllers
             PlayerManager PM = new PlayerManager();
             PM.editPlayerUsername(id, userNameChange.username);
             return Ok();
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public ActionResult<Player> login([FromBody]UserLoginInput userLogin)
+        {
+            PlayerManager PM = new PlayerManager();
+            Player player = PM.selectPlayerByUsername(userLogin.Username);
+            if(player == null)
+            {
+                return NotFound();
+            }
+
+            if (player.Password == userLogin.Password)
+            {
+                return player;
+            }
+            else
+            {
+                return NotFound();
+            }
+            
         }
     }
 
