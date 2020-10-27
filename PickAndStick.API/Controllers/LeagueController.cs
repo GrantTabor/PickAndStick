@@ -53,6 +53,14 @@ namespace PickAndStick.API.Controllers
             List<League> leagues = LM.GetLeagues();
             return leagues;
         }
+        [HttpGet]
+        [Route("Season")]
+        public ActionResult<List<Season>> getSeasons()
+        {
+            LeagueManager LM = new LeagueManager();
+            List<Season> seasons = LM.getSeasons();
+            return seasons;
+        }
     }
 
 

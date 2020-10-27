@@ -42,6 +42,16 @@ namespace PickAndStick.Domain.Managers
                 return season;
             }
         }
+        public List<Season> getSeasons()
+        {
+            using (var db = new PickAndStick.Models.PickerContext())
+            {
+                List<Season> seasons = db.Seasons.ToList();
+
+
+                return seasons;
+            }
+        }
         public PlayerSeason makePlayerSeason(int seasonId, int playerId)
         {
             using (var db = new PickAndStick.Models.PickerContext())
