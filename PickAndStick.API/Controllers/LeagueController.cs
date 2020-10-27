@@ -27,6 +27,25 @@ namespace PickAndStick.API.Controllers
                //return player;
             return league;
         }
+        [HttpPost]
+        [Route("Season")]
+        public ActionResult<Season> makeSeason([FromBody]SeasonInput seasonInput) //make leagueId input class?
+        {
+            LeagueManager LM = new LeagueManager();
+            Season season = LM.makeSeason(seasonInput.LeagueId);
+
+            return season;
+        }
+        [HttpPost]
+        [Route("PlayerSeason")]
+        public ActionResult<PlayerSeason> makePlayerSeason([FromBody]PlayerSeasonInput seasonInput)
+        {
+            LeagueManager LM = new LeagueManager();
+            PlayerSeason playerSeason = LM.makePlayerSeason(seasonInput.SeasonId, seasonInput.PlayerId);
+
+            
+            return playerSeason;
+        }
         [HttpGet]
         public ActionResult<List<League>> getLeagues()
         {

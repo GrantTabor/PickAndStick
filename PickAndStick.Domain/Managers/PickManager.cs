@@ -9,8 +9,15 @@ namespace PickAndStick.Domain.Managers
     {
         public WeekPick MakeWeekPick(int playerId, int seasonId)
         {
-            WeekPick weekPick = new WeekPick{ PlayerId = playerId, SeasonId = seasonId};
-            return weekPick;
+
+            using (var db = new PickAndStick.Models.PickerContext())
+            {
+                WeekPick weekPick = new WeekPick { PlayerId = playerId, SeasonId = seasonId };
+                db.Add(weekPick);
+                db.SaveChanges();
+
+                return weekPick;
+            }
         }
 
 
@@ -43,6 +50,27 @@ namespace PickAndStick.Domain.Managers
         {
             picks.Add(pick);
             return picks;
+        }
+        public Pick MakePick(List<Choice> choices, int weekPickId, int confidence)
+        {
+            using(var db = new PickAndStick.Models.PickerContext())
+            {
+                Pick pick = new Pick { Choices = choices, WeekPickId = weekPickId, Confidence = confidence };
+                db.Add(pick);
+                db.SaveChanges();
+
+                return pick;
+            }
+        }
+        public Choice MakeChoice(bool isSelected, string optionName)
+        {
+            using(var db = new PickAndStick.Models.PickerContext())
+            {
+                Choice choice = new Choice { IsSelected = isSelected, OptionName = optionName };
+                db.Add(choice);
+                db.SaveChanges();
+                return choice;
+            }
         }
     }
 }

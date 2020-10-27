@@ -24,7 +24,12 @@ namespace PickAndStick.API.Controllers
             WeekPick weekPick = PM.MakeWeekPick(weekPickInput.PlayerId, weekPickInput.SeasonId);
             return weekPick;
         }
-        public ActionResult<Pick> MakePick([FromBody]PickInput )
+        public ActionResult<Pick> MakePick([FromBody]PickInput pickInput)
+        {
+            PickManager PM = new PickManager();
+            Pick pick = PM.MakePick(pickInput.Choices, pickInput.WeekPickId, pickInput.Confidence);
+            return pick;
+        }
        
     }
 
